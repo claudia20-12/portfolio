@@ -3362,3 +3362,15 @@ img {
 .intro-servizi h1 span {
   color: #cf382e;
 }
+
+
+.link::after {
+  content: "";
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  border-top: 1.5px solid currentColor;
+  border-right: 1.5px solid currentColor;
+  transform: rotate(0deg);
+  margin-left: 8px;
+}
