@@ -3374,3 +3374,28 @@ img {
   transform: rotate(0deg);
   margin-left: 8px;
 }
+
+
+
+
+
+
+
+
+
+@media (max-width: 480px) {
+  html,
+  body {
+    height: auto;
+    min-height: 0;
+  }
+
+  body {
+    padding-bottom: 0;
+    margin-bottom: 0;
+  }
+
+  footer {
+    margin-bottom: 0;
+  }
+}
