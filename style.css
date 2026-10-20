@@ -3395,6 +3395,36 @@ img {
     margin-bottom: 0;
   }
 
+  /* HOME — TITOLO SU TABLET E SMARTPHONE */
+
+@media (max-width: 700px) {
+  .hero h1 {
+    font-size: clamp(48px, 8vw, 100px);
+    line-height: 1;
+    letter-spacing: -3px;
+  }
+}
+
+  /* HOME — ALLINEAMENTO MENU MOBILE */
+
+@media (max-width: 480px) {
+  .header {
+    align-items: center;
+    gap: 12px;
+  }
+
+  .logo {
+    flex-shrink: 0;
+  }
+
+  .menu {
+    align-items: center;
+    flex-wrap: wrap;
+    row-gap: 8px;
+    column-gap: 12px;
+  }
+}
+
   footer {
     margin-bottom: 0;
   }
