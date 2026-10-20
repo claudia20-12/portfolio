@@ -3401,17 +3401,9 @@ img {
 
 
 
-@media (max-width: 480px) {
-  html,
-  body {
-    height: auto;
-    min-height: 0;
-  }
-
-  body {
-    padding-bottom: 0;
-    margin-bottom: 0;
-  }
+.hero h1 {
+  font-size: clamp(42px, 12vw, 58px);
+}
 
 
 
