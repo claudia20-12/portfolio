@@ -3376,7 +3376,25 @@ img {
 }
 
 
+/* HOME — ALLINEAMENTO MENU MOBILE */
 
+@media (max-width: 480px) {
+  .header {
+    align-items: center;
+    gap: 12px;
+  }
+
+  .logo {
+    flex-shrink: 0;
+  }
+
+  .menu {
+    align-items: center;
+    flex-wrap: wrap;
+    row-gap: 8px;
+    column-gap: 12px;
+  }
+}
 
 
 
