@@ -3401,8 +3401,14 @@ img {
 
 
 
-.hero h1 {
-  font-size: clamp(42px, 12vw, 58px);
+/* HOME — TITOLO SU TABLET E SMARTPHONE */
+
+@media (max-width: 700px) {
+  .hero h1 {
+    font-size: clamp(48px, 8vw, 100px);
+    line-height: 1;
+    letter-spacing: -3px;
+  }
 }
 
 
