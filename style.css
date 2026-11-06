@@ -3432,17 +3432,20 @@ img {
 
 /* MONDO ILLUSTRATO */
 
+
 .mondo-illustrato {
-  padding: 110px 8%;
-  margin: 0 auto;
+  padding: 90px 7%;
   background: #272723;
   color: #f8f6f0;
 }
 
 .mondo-testo {
-  max-width: 750px;
-  margin: 0 auto;
+  width: 100%;
+  max-width: none;
+  margin: 0;
+  padding: 0;
 }
+
 
 .mondo-illustrato .etichetta {
   color: #cf382e;
