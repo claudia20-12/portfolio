@@ -3429,20 +3429,23 @@ img {
   }
 }
 
+
 /* MONDO ILLUSTRATO */
 
 .mondo-illustrato {
-  padding: 100px 7%;
-  background: #242424;
-  color: #f8f7f3;
+  padding: 110px 8%;
+  margin: 0 auto;
+  background: #272723;
+  color: #f8f6f0;
 }
 
 .mondo-testo {
   max-width: 750px;
+  margin: 0 auto;
 }
 
 .mondo-illustrato .etichetta {
-  color: #d62828;
+  color: #cf382e;
 }
 
 .mondo-illustrato h2 {
@@ -3453,7 +3456,7 @@ img {
 }
 
 .mondo-illustrato h2 span {
-  color: #d62828;
+  color: #cf382e;
 }
 
 .mondo-illustrato p:not(.etichetta) {
@@ -3465,12 +3468,26 @@ img {
 .mondo-illustrato a {
   display: inline-block;
   margin-top: 25px;
-  padding-bottom: 8px;
-  border-bottom: 1px solid #d62828;
-  color: #f8f7f3;
+  padding: 12px 0;
+  color: #f8f6f0;
+  opacity: 1;
+  visibility: visible;
+  text-decoration: none;
+  border-bottom: 1px solid #cf382e;
   transition: color 0.3s ease;
 }
 
 .mondo-illustrato a:hover {
-  color: #d62828;
+  color: #cf382e;
 }
+
+@media (max-width: 600px) {
+  .mondo-illustrato {
+    padding: 75px 7%;
+  }
+
+  .mondo-illustrato h2 {
+    letter-spacing: -2px;
+  }
+}
+
