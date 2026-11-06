@@ -3433,16 +3433,18 @@ img {
 /* MONDO ILLUSTRATO */
 
 
+/* MONDO ILLUSTRATO — DESKTOP */
+
 .mondo-illustrato {
-  padding: 90px 7%;
+  padding: 90px 0;
   background: #272723;
   color: #f8f6f0;
 }
 
 .mondo-testo {
-  width: 100%;
+  width: 86%;
   max-width: none;
-  margin: 0;
+  margin: 0 auto;
   padding: 0;
 }
 
@@ -3492,5 +3494,9 @@ img {
   .mondo-illustrato h2 {
     letter-spacing: -2px;
   }
+  .mondo-testo {
+  width: 100%;
+  margin: 0;
+}
 }
 
