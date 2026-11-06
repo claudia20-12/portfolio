@@ -3428,3 +3428,49 @@ img {
     margin-bottom: 0;
   }
 }
+
+/* MONDO ILLUSTRATO */
+
+.mondo-illustrato {
+  padding: 100px 7%;
+  background: #242424;
+  color: #f8f7f3;
+}
+
+.mondo-testo {
+  max-width: 750px;
+}
+
+.mondo-illustrato .etichetta {
+  color: #d62828;
+}
+
+.mondo-illustrato h2 {
+  font-size: clamp(42px, 7vw, 80px);
+  font-weight: 500;
+  letter-spacing: -4px;
+  margin: 35px 0 20px;
+}
+
+.mondo-illustrato h2 span {
+  color: #d62828;
+}
+
+.mondo-illustrato p:not(.etichetta) {
+  max-width: 500px;
+  color: #ccc;
+  line-height: 1.8;
+}
+
+.mondo-illustrato a {
+  display: inline-block;
+  margin-top: 25px;
+  padding-bottom: 8px;
+  border-bottom: 1px solid #d62828;
+  color: #f8f7f3;
+  transition: color 0.3s ease;
+}
+
+.mondo-illustrato a:hover {
+  color: #d62828;
+}
