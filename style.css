@@ -3436,7 +3436,7 @@ img {
 /* MONDO ILLUSTRATO — DESKTOP */
 
 .mondo-illustrato {
-  padding: 90px 0;
+  padding: 140px 0 90px;
   background: #272723;
   color: #f8f6f0;
 }
@@ -3466,7 +3466,6 @@ img {
 
 .mondo-illustrato p:not(.etichetta) {
   max-width: 500px;
-  color: #ccc;
   line-height: 1.8;
 }
 
@@ -3474,7 +3473,6 @@ img {
   display: inline-block;
   margin-top: 25px;
   padding: 12px 0;
-  color: #f8f6f0;
   opacity: 1;
   visibility: visible;
   text-decoration: none;
